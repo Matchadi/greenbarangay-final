@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GreenBarangay — Environmental Awareness</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link href="css/custom.css" rel="stylesheet" />
+</head>
+<body>
+
+<!-- ══════════ NAVBAR ══════════ -->
+<nav class="navbar navbar-expand-lg">
+  <div class="container">
+    <a class="navbar-brand" href="#">
+      <span class="leaf">🌿</span> GreenBarangay
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navMenu">
+      <ul class="navbar-nav gap-1">
+        <li class="nav-item"><a class="nav-link" href="#hero">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#programs">Programs</a></li>
+        <li class="nav-item"><a class="nav-link" href="#volunteers">Volunteers</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- ══════════ HERO ══════════ -->
+<section id="hero">
+  <div class="container">
+    <div class="hero-content col-lg-8">
+      <span class="hero-tag">🌱 Barangay Environmental Initiative</span>
+      <h1 class="hero-title">
+        Together, We Keep Our<br /><em>Community Clean</em>
+      </h1>
+      <p class="hero-sub">
+        GreenBarangay is a grassroots movement dedicated to building a healthier, greener neighborhood — one action at a time. Join hundreds of volunteers making a real difference.
+      </p>
+      <div class="d-flex flex-wrap gap-3">
+        <a href="#" class="btn-hero" data-bs-toggle="modal" data-bs-target="#volunteerModal">
+          <i class="bi bi-heart-fill"></i> Join Us
+        </a>
+        <a href="#programs" class="btn-hero-outline">
+          <i class="bi bi-arrow-down-circle"></i> Our Programs
+        </a>
+      </div>
+      <div class="hero-stats">
+        <div class="hero-stat">
+          <strong>500+</strong>
+          <span>Volunteers</span>
+        </div>
+        <div class="hero-stat">
+          <strong>1,200</strong>
+          <span>Trees Planted</span>
+        </div>
+        <div class="hero-stat">
+          <strong>30+</strong>
+          <span>Clean Drives</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════ PROGRAMS ══════════ -->
+<section id="programs">
+  <div class="container">
+    <div class="row align-items-end mb-5">
+      <div class="col-lg-6 prog-intro fade-up">
+        <p class="section-eyebrow">What We Do</p>
+        <h2 class="section-title">Community Programs Built for Impact</h2>
+        <div class="divider-leaf"><span>🌿</span></div>
+        <p class="text-muted" style="font-size:.97rem;line-height:1.7;">
+          Our three core programs address the most pressing environmental concerns in our barangay — working together to create lasting, positive change.
+        </p>
+      </div>
+    </div>
+
+    <div class="row g-4">
+      <!-- Card 1 -->
+      <div class="col-md-4 fade-up">
+        <div class="program-card">
+          <div class="card-img-wrap">
+            <img src="card img/treeplanting.png" alt="Tree Planting" />
+            <span class="card-badge">Active</span>
+          </div>
+          <div class="card-body">
+            <div class="card-icon"><i class="bi bi-tree"></i></div>
+            <h3 class="card-title">Tree Planting</h3>
+            <p class="card-text">
+              Every month, our volunteers gather to plant native tree species in vacant lots, school grounds, and roadsides — restoring green cover one sapling at a time.
+            </p>
+            <a href="#" class="card-link">Learn more <i class="bi bi-arrow-right"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="col-md-4 fade-up" style="transition-delay:.12s">
+        <div class="program-card">
+          <div class="card-img-wrap">
+            <img src="card img/wastesegregation.png" alt="Waste Segregation" />
+            <span class="card-badge">Ongoing</span>
+          </div>
+          <div class="card-body">
+            <div class="card-icon"><i class="bi bi-recycle"></i></div>
+            <h3 class="card-title">Waste Segregation</h3>
+            <p class="card-text">
+              We conduct household workshops and distribute color-coded bins to promote proper waste sorting — reducing landfill burden and increasing recyclable recovery rates.
+            </p>
+            <a href="#" class="card-link">Learn more <i class="bi bi-arrow-right"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="col-md-4 fade-up" style="transition-delay:.24s">
+        <div class="program-card">
+          <div class="card-img-wrap">
+            <img src="card img/cleandrive.png" alt="Clean Drive" />
+            <span class="card-badge">Monthly</span>
+          </div>
+          <div class="card-body">
+            <div class="card-icon"><i class="bi bi-people-fill"></i></div>
+            <h3 class="card-title">Clean Drive</h3>
+            <p class="card-text">
+              Our barangay-wide clean-up events bring together residents to sweep streets, clear esteros, and remove illegal dumpsites — building community pride along the way.
+            </p>
+            <a href="#" class="card-link">Learn more <i class="bi bi-arrow-right"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════ WHY STRIP ══════════ -->
+<section id="why">
+  <div class="container">
+    <div class="row text-center mb-4">
+      <div class="col">
+        <p class="section-eyebrow" style="color:var(--green-bright);">Why It Matters</p>
+        <h2 class="section-title" style="color:#fff;">Our Impact in Numbers</h2>
+      </div>
+    </div>
+    <div class="row g-4 justify-content-center">
+      <div class="col-6 col-md-3">
+        <div class="why-card fade-up">
+          <span class="why-icon">🌳</span>
+          <strong class="why-num">1,200+</strong>
+          <p class="why-label">Trees Planted Since 2022</p>
+        </div>
+      </div>
+      <div class="col-6 col-md-3">
+        <div class="why-card fade-up" style="transition-delay:.1s">
+          <span class="why-icon">🗑️</span>
+          <strong class="why-num">8 tons</strong>
+          <p class="why-label">Waste Collected & Sorted</p>
+        </div>
+      </div>
+      <div class="col-6 col-md-3">
+        <div class="why-card fade-up" style="transition-delay:.2s">
+          <span class="why-icon">🏘️</span>
+          <strong class="why-num">12</strong>
+          <p class="why-label">Puroks Covered</p>
+        </div>
+      </div>
+      <div class="col-6 col-md-3">
+        <div class="why-card fade-up" style="transition-delay:.3s">
+          <span class="why-icon">🤝</span>
+          <strong class="why-num">500+</strong>
+          <p class="why-label">Active Volunteers</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════ VOLUNTEERS ══════════ -->
+<section id="volunteers">
+  <div class="container">
+    <div class="text-center mb-5 fade-up">
+      <p class="section-eyebrow">Get Involved</p>
+      <h2 class="section-title">Become a GreenBarangay Volunteer</h2>
+      <div class="divider-leaf justify-content-center"><span>🌿</span></div>
+    </div>
+    <div class="row g-4 align-items-stretch">
+      <div class="col-md-6 fade-up">
+        <div class="vol-feature">
+          <h4 style="font-family:'DM Serif Display',serif;color:var(--green-deep);font-size:1.4rem;margin-bottom:.5rem;">What You'll Do</h4>
+          <p style="color:var(--text-mid);font-size:.93rem;">Volunteers are the heart of GreenBarangay. Here's how you can contribute:</p>
+          <ul class="vol-list">
+            <li><i class="bi bi-check-circle-fill check"></i> Join monthly tree planting events in your purok</li>
+            <li><i class="bi bi-check-circle-fill check"></i> Help lead waste segregation workshops for households</li>
+            <li><i class="bi bi-check-circle-fill check"></i> Participate in community clean drives every first Saturday</li>
+            <li><i class="bi bi-check-circle-fill check"></i> Assist in distributing eco-bags and segregation kits</li>
+            <li><i class="bi bi-check-circle-fill check"></i> Share updates on social media to spread awareness</li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-md-6 fade-up" style="transition-delay:.12s">
+        <div class="vol-cta-box">
+          <h3>Ready to Make a Difference?</h3>
+          <p>
+            No experience needed — just the heart to serve. Sign up as a volunteer and we'll match you with the program that fits your schedule and interests best.
+          </p>
+          <p style="font-size:.88rem;color:rgba(255,255,255,.55);">
+            All volunteers receive a GreenBarangay shirt, eco-kit, and certificate of participation.
+          </p>
+          <button class="btn-primary-green" data-bs-toggle="modal" data-bs-target="#volunteerModal">
+            <i class="bi bi-heart-fill"></i> Sign Up Now
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════ CONTACT ══════════ -->
+<section id="contact">
+  <div class="container">
+    <div class="text-center mb-5 fade-up">
+      <p class="section-eyebrow">Reach Us</p>
+      <h2 class="section-title">Contact GreenBarangay</h2>
+      <div class="divider-leaf justify-content-center"><span>🌿</span></div>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-md-8 col-lg-6 fade-up">
+        <div class="contact-card">
+          <div class="contact-item">
+            <div class="contact-icon"><i class="bi bi-geo-alt-fill"></i></div>
+            <div>
+              <strong>Address</strong>
+              <span>Barangay Hall, Manila City</span>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon"><i class="bi bi-envelope-fill"></i></div>
+            <div>
+              <strong>Email</strong>
+              <span>together@greenbarangay.ph</span>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon"><i class="bi bi-telephone-fill"></i></div>
+            <div>
+              <strong>Phone</strong>
+              <span>(63) 9881234567</span>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon"><i class="bi bi-clock-fill"></i></div>
+            <div>
+              <strong>Office Hours</strong>
+              <span>Mon – Fri, 8:00 AM – 5:00 PM</span>
+            </div>
+          </div>
+          <div class="mt-3 text-center">
+            <button class="btn-primary-green" style="width:100%;justify-content:center;" data-bs-toggle="modal" data-bs-target="#volunteerModal">
+              <i class="bi bi-person-plus-fill"></i> Volunteer Sign-Up Form
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════ FOOTER ══════════ -->
+<footer>
+  <div class="container">
+    <div class="row align-items-start">
+      <div class="col-md-4 mb-4 mb-md-0">
+        <span class="footer-brand">🌿 GreenBarangay</span>
+        <p style="font-size:.88rem;color:rgba(255,255,255,.55);max-width:280px;line-height:1.7;">
+          A community-driven environmental awareness initiative. Together, we build a greener tomorrow.
+        </p>
+      </div>
+      <div class="col-md-4 mb-4 mb-md-0">
+        <p style="color:rgba(255,255,255,.4);font-size:.78rem;letter-spacing:1.5px;text-transform:uppercase;margin-bottom:.8rem;">Quick Links</p>
+        <div class="d-flex flex-column gap-2">
+          <a href="#hero" class="footer-link">Home</a>
+          <a href="#programs" class="footer-link">Programs</a>
+          <a href="#volunteers" class="footer-link">Volunteers</a>
+          <a href="#contact" class="footer-link">Contact</a>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <p style="color:rgba(255,255,255,.4);font-size:.78rem;letter-spacing:1.5px;text-transform:uppercase;margin-bottom:.8rem;">Project</p>
+        <a href="https://github.com" target="_blank" class="footer-gh mb-2">
+          <i class="bi bi-github"></i> View on GitHub Pages
+        </a>
+        <p style="color:rgba(255,255,255,.4);font-size:.82rem;margin-top:.8rem;"> Mia Abainza<br>Ren Adrian Bagao<br>Lorreine Boncodin<br>Cedie Gonzaga<br><br> Web Development<br>AY 2025–2026</p>
+      </div>
+    </div>
+    <hr class="footer-divider" />
+    <p class="text-center mb-0" style="font-size:.82rem;color:rgba(255,255,255,.35);">
+      © 2026 GreenBarangay. Built with 💚 for the community. · Web Development
+    </p>
+  </div>
+</footer>
+
+<!-- ══════════ VOLUNTEER / CONTACT MODAL ══════════ -->
+<div class="modal fade" id="volunteerModal" tabindex="-1" aria-labelledby="volunteerModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="volunteerModalLabel">🌿 Contact / Volunteer Sign-Up</h5>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+
+        <!-- ── FORM (Bootstrap .needs-validation) ── -->
+        <div id="formArea">
+          <p style="color:var(--text-mid);font-size:.9rem;margin-bottom:1.5rem;">
+            Fill out the form below and our team will reach out within 2–3 business days.
+          </p>
+
+          <form id="contactForm" class="needs-validation" novalidate>
+
+            <!-- Full Name -->
+            <div class="mb-3">
+              <label for="inputName" class="form-label">Full Name <span style="color:red">*</span></label>
+              <input
+                type="text"
+                class="form-control"
+                id="inputName"
+                name="name"
+                placeholder="Juan Dela Cruz"
+                required
+              />
+              <div class="invalid-feedback">
+                Please enter your full name.
+              </div>
+            </div>
+
+            <!-- Email Address -->
+            <div class="mb-3">
+              <label for="inputEmail" class="form-label">Email Address <span style="color:red">*</span></label>
+              <input
+                type="email"
+                class="form-control"
+                id="inputEmail"
+                name="email"
+                placeholder="juan@email.com"
+                required
+              />
+              <div class="invalid-feedback">
+                Please enter a valid email address (e.g. juan@email.com).
+              </div>
+            </div>
+
+            <!-- Subject -->
+            <div class="mb-3">
+              <label for="inputSubject" class="form-label">Subject <span style="color:red">*</span></label>
+              <input
+                type="text"
+                class="form-control"
+                id="inputSubject"
+                name="subject"
+                placeholder="e.g. Volunteer Inquiry"
+                required
+              />
+              <div class="invalid-feedback">
+                Please enter a subject for your message.
+              </div>
+            </div>
+
+            <!-- Message -->
+            <div class="mb-4">
+              <label for="inputMessage" class="form-label">Message <span style="color:red">*</span></label>
+              <textarea
+                class="form-control"
+                id="inputMessage"
+                name="message"
+                rows="4"
+                placeholder="Tell us how you'd like to help… (min. 20 characters)"
+                required
+                minlength="20"
+              ></textarea>
+              <div class="invalid-feedback">
+                Your message must be at least 20 characters long. Please tell us a bit more!
+              </div>
+            </div>
+
+            <button type="submit" class="btn-submit">
+              <i class="bi bi-send-fill"></i> Submit My Application
+            </button>
+
+          </form>
+        </div>
+
+        <!-- ── SUCCESS (shown after JS-only pass, hidden by default) ── -->
+        <div class="success-msg" id="successMsg">
+          <span class="check-circle">✅</span>
+          <h5>You're signed up!</h5>
+          <p style="color:var(--text-mid);font-size:.92rem;">
+            Thank you for joining GreenBarangay! We'll contact you within 2–3 business days with your orientation details.
+          </p>
+          <button class="btn-primary-green mx-auto mt-2" style="justify-content:center;" data-bs-dismiss="modal">
+            Back to Site
+          </button>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

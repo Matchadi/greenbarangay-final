@@ -1,0 +1,14 @@
+# macOS
+.DS_Store
+
+# Logs
+*.log
+
+# IDE / Editor config folders
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# XAMPP / local server leftovers
+php_errors.log
