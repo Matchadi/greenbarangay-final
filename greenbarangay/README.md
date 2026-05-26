@@ -4,7 +4,7 @@ A community-driven environmental awareness website built as a final integrative 
 
 ## 🔗 Live Site
 
-> [GitHub Pages URL — update this after deployment](https://your-username.github.io/greenbarangay/)
+> [GitHub Pages URL](https://matchadi.github.io/greenbarangay-final/)
 
 ---
 
